@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import './Navigation.css';
 
 
 class Navigation extends Component {
@@ -15,9 +16,7 @@ class Navigation extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem>
-            <Link to= "/ContactPage">Contact</Link>
-      </NavItem>
+          <NavItem href="/ContactPage">Contact</NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

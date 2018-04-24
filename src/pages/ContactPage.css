@@ -30,7 +30,7 @@ ul{
 }
 
 .company-info{
-    background: #92bde7;
+    background: #41B7FF;
 }
 
 .company-info h3, .company-info ul{
@@ -63,11 +63,11 @@ ul{
 .contact form button, .contact form input, .contact form textarea{
     width: 100%;
     padding: 1em;
-    border: 1px solid #c9e6ff;
+    border: 1px solid #41B7FF;
 }
 
 .contact form button{
-    background: #c9e6ff;
+    background: #41B7FF;
     border: 0;
     text-transform: uppercase;
 }
